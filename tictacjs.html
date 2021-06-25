@@ -7,20 +7,39 @@
   <style>
     body {
         font-family: sans-serif;
+        color: blue;
     }
 
     #game-board {
-        border: solid 1px black;
+        border: solid 2px blue;
         margin-bottom: 2em;
+        align-content: center;
+        border-radius: 10px;
     }
 
     #game-board td {
-        border: solid 1px black;
+        color: blue;
+        border: solid 1px blue;
         height: 80px;
         width: 80px;
         text-align: center;
         font-size: 45px;
+        align-content: flex-end;
+        border-radius: 5px;
     }
+
+    button {
+        color: blue;
+        background-color: white;
+        border-color: blue;
+        border-radius: 5px;
+    }
+
+    .catImg {
+        width:40%;
+        height: 40%;
+    }
+
   </style>
 </head>
 <body>
@@ -29,7 +48,14 @@
   <button id="start-game">Start!</button>
 </h1>
 
+<section>
+    <h2> I am Jabba the Catt!</h2>
+    <h2>Click Start to Challenge Me!</h2>
+    <img class="catImg" src="https://pbs.twimg.com/media/EZSwq0UXYAQbNXb.jpg" alt="Jabba the Catt">
+</section>
+
 <table id="game-board" cellpadding="0" cellspacing="0">
+
   <tr>
     <td id="cell-0"></td>
     <td id="cell-1"></td>
@@ -46,6 +72,7 @@
     <td id="cell-8"></td>
   </tr>
 </table>
+
 
 <script>
   /* Tic-Tac Javascript */
