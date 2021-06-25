@@ -39,3 +39,6 @@ test('bottom right square adds x on click', async () => {
 //     await driver.findElement(By.xpath('(//*[text()="cell-1"])'));
 //     expect(cell([1]).toEqual('O'));
 // });
+
+//Link to Heroku = https://tictacjs-jabba-catt.herokuapp.com/
+//Link to Trello = https://trello.com/b/B9qsPS4R/qa-assessment
